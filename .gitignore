@@ -1,0 +1,50 @@
+# =========================================================================
+# Gitignore configuration for Credit Card Fraud Detection Project
+# =========================================================================
+
+# 1. Dataset Directory (Large CSV files >100MB cannot be pushed to GitHub)
+Dataset/
+*.csv
+*.xlsx
+
+# 2. Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.ipynb_checkpoints
+*~
+.ipynb_checkpoints/*
+
+# 3. Python files/folders
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# 4. Microsoft Office temporary owner files (Report, PPT, Synopsis)
+~$*
+**/~$*
+
+# 5. IDE settings and configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.pydevproject
+.settings/
+
+# 6. OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
