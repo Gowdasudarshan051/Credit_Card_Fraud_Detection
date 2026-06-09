@@ -17,7 +17,6 @@ An end-to-end Machine Learning project designed to detect fraudulent credit card
 5. [Evaluation Metrics & Performance Results](#-evaluation-metrics--performance-results)
 6. [Project Structure](#-project-structure)
 7. [Installation & Getting Started](#-installation--getting-started)
-8. [Authors & Contributors](#-authors--contributors)
 
 ---
 
@@ -163,8 +162,3 @@ jupyter notebook Code/Credit_Card_Fraud_Detection.ipynb
 ```
 Once opened, run all cells to reproduce the findings, plots, and models.
 
----
-
-## 👥 Authors & Contributors
-* **Tejaswini** - Lead Developer / Mini-Project Student
-* Submitted as a Mini-Project under the course **BCS586** (5th Semester).
